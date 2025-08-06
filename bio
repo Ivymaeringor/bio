@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Biography</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+      background-color: #fafafb;
+      color: #333;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background-color: #f1d4f9;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(230, 195, 195, 0.1);
+    }
+
+    .about-text {
+      text-indent: 40px;
+      margin-top: 20px;
+      line-height: 1.8;
+    }
+
+    img.profile {
+      max-width: 200px;
+      border-radius: 50%;
+      display: block;
+      margin: 20px auto;
+    }
+
+    h1, h2 {
+      text-align: center;
+    }
+
+    .info {
+      margin-top: 20px;
+    }
+
+    .info p {
+      line-height: 1.6;
+    }
+
+    .hobby-image { 
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      margin: 15px 0;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+
+    .caption {
+      text-align: center;
+      font-style: italic;
+      color: #181818;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="ivybio.jpg" alt="My Photo" class="profile">
+    <h1>Biography</h1>
+    <h2>Hello, I'm Ivy Mae A. Ringor</h2>
+
+    <div class="info">
+      <p><strong>Age:</strong> 20</p>
+      <p><strong>Birthday:</strong> July 21, 2005</p>
+      <p><strong>Birthplace:</strong> San Fernando City</p>
+      <p><strong>Address:</strong> Rimos 4, Luna, La Union</p>
+      <p><strong>Hobbies:</strong> Playing Billiards and Reading Wattpad Stories</p>
+    </div>
+
+   
+    
+<h2>My Hobbies</h2>
+    <!-- Hobby Images Section -->
+    <img src="wattpad.png" alt="Wattpad Hobby" class="hobby-image">
+    <div class="caption">Reading Wattpad stories is one of my favorite pastimes.</div>
+
+    <img src="billiard.jpg" alt="Playing Billiards" class="hobby-image">
+    <div class="caption">I love playing billiards ofcourse it's my only favorite sport.</div>
+
+    
+  </div>
+</body>
+</html>
